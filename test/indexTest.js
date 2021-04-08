@@ -8,7 +8,7 @@ describe("breakfast", () => {
     expect(bfast.drink).to.equal('juice')
   })
 })
-
+ 
 describe("lunch", () => {
   it("has a class of lunch", () => {
     expect(new Lunch()).to.be.an.instanceof(Lunch);
